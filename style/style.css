@@ -4,6 +4,7 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -153,16 +154,16 @@ span > span{
   cursor: pointer;
 }
 
-/* grid */
+
 
 .grid{
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 25px;
-  
+  margin-bottom: 27px;
 }
 
-/* content */
+
 
 .content-wrapper{
   max-width: 855px;
@@ -568,4 +569,143 @@ span > span{
   color: #1ABC9C;
   font-size: 14px;
   font-weight: 700;
+}
+footer{
+  width: 100%;
+  background-color: #1A1C27;
+}
+.footer-grid{
+  color: #A1B1BC;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px;
+  padding: 100px;
+}
+
+.footgrid{
+  width: 270px;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.footgrid-1 > p:first-child{
+  color: white;
+  margin-bottom: 30px;
+  font-size: 47.6px;
+  line-height: 14px;
+}
+.footgrid-1 > p:first-child > span{
+  color: #1ABC9C;
+  font-weight: 800;
+}
+.footgrid-1 > p{
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.footgrid-1 > p:last-child{
+  margin-bottom: 0;
+}
+
+.footgrid-2{
+  display: inline-block;
+}
+.footgrid > h5{
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 800;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.footgrid > h5::before{
+  content: '';
+  display: block;
+  background-color: #1ABC9C;
+  width: 5px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.post-title{
+  font-size: 12px;
+}
+.flex-btwn{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-btwn > span{
+  color: #788894;
+  margin-bottom: 10px;
+}
+.footer-line{
+  width: 100%;
+  height: 1px;
+  background-color: #262837;
+}
+.tweet{
+  display: flex;
+}
+.tweet > div > .fa{
+  font-size: 24px;
+}
+.tweet-txt{
+  margin-left: 10px;
+}
+.tweet-txt >div:first-child{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.tweet-txt >div > span{
+  color: #1ABC9C;
+}
+.tweet-time{
+  font-size: 12px;
+  color: #6D7D89;
+  margin-bottom: 10px;
+}
+
+
+.featured-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 8px;
+}
+
+.featured-grid div{
+  background-color: #1FCDAB;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.after-footer{
+  color: #A1B1BC;
+  background-color: #222533;
+  height: 50px;
+  padding-top: 15px; 
+}
+.footer-fox{
+  color: #1ABC9C;
+}
+.footer-menu::after{
+  content: '|';
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-menu:last-child::after{
+  content: '';
 }
