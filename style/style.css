@@ -305,12 +305,12 @@ span > span{
   border: 1px solid #2C3E50;
   padding: 12px 21px 17px 20px;
   color: #2C3E50;
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'Lato', sans-serif;
   border-radius: 3px;
   font-weight: 900;
   word-spacing: 4px;
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
 }
 
 .readmore:hover{
@@ -382,7 +382,7 @@ span > span{
   font-size: 30px;
   color: #1ABC9C;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 
 /* article3 */
@@ -396,7 +396,7 @@ span > span{
   font-size: 30px;
   font-family: 'Lato', sans-serif;
   margin-top: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 9px;
 }
 
 .poster-text span{
@@ -753,8 +753,8 @@ margin-bottom: 10px;
 footer{
   background-color: #1A1C27;
   width: 100%;
-  padding: 85px 0 95px;  
-  border-bottom: 1px solid #2B2E3C;
+  padding: 85px 0 92px;
+  border-bottom: 0px solid #2B2E3C;
   border-top: 1px solid #2B2E3C;
 }
 
@@ -819,7 +819,8 @@ footer{
   color: #A1B1BC;
   font-family: 'Lato', sans-serif;
   font-size: 11px;
-  margin-right: 6px;
+  margin-right: 5px;
+  margin-top: -3px;
 }
 
 .footer-line{
@@ -974,7 +975,7 @@ footer{
 .footer-end{
   width: 100%;
   background-color: #222533;
-  padding: 22px 0 29px;
+  padding: 26px 0 29px;
 }
 
 .footnote{
