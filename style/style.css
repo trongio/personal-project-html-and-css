@@ -70,7 +70,8 @@ header{
 }
 
 .fa-phone{
-  margin-right: 15px;
+  margin-right: 14px;
+  margin-left: 2px;
 }
 
 .fa-paper-plane{
@@ -184,18 +185,20 @@ span > span{
   font-size: 29.1px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  margin-top: -1px;
   margin-right: 22px;
 }
 
 .burger{
   width: 30px;
   height: 30px;
+  margin-top: 3px;
   cursor: pointer;
 }
 
 .fa-angle-right{
   color: #fff;
-  margin-left: 19px;
+  margin-left: 18px;
 }
 
 .btm-hdr-p{
@@ -204,9 +207,10 @@ span > span{
   /* letter-spacing: 0px; */
   /* word-spacing: -1px; */
   font-family: 'Lato', sans-serif;
-  margin-left: 15px;
+  margin-left: 16px;
   /* margin-right: 0px; */
   cursor: pointer;
+  letter-spacing: 0px;
 }
 
 /* grid */
@@ -226,7 +230,7 @@ span > span{
 }
 
 .news1{
-  margin-bottom: 86px;
+  margin-bottom: 87px;
 }
 
 .poster{
@@ -264,7 +268,7 @@ span > span{
   background-color: #ECF0F1;
   height: 1px;
   width: 850px;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 .poster-text{
@@ -279,11 +283,11 @@ span > span{
 .readmore{
   background-color: transparent;
   border: 1px solid #2C3E50;
-  padding: 14px 22px 15px 20px;
+  padding: 12px 21px 17px 20px;
   color: #2C3E50;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  border-radius: 5px;
+  border-radius: 3px;
   font-weight: 900;
   word-spacing: 4px;
   letter-spacing: 1px;
@@ -307,20 +311,21 @@ span > span{
 .slider-right{
   position: absolute;
   right: 0;
-  top: 44%;
+  top: 43.7%;
   color: #2C3E50;
   background-color: #fff;
-  padding: 15px 22px 19px 21px;
+  padding: 15px 20px 19px 21px;
   cursor: pointer;
 }
 
 .slider-left{
   position: absolute;
   left: 0%;
-  top: 44%;
+  top: 43.7%;
   color: #2C3E50;
   background-color: #fff;
-  padding: 15px 22px 19px 21px;
+  padding: 15px 21px 19px 21px;
+  border-radius: 1px;
   cursor: pointer;
 }
 
@@ -396,8 +401,8 @@ span > span{
   color: #2C3E50;
   font-size: 30px;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 13px;
-  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 33px;
 }
 
 .article4 div iframe{
@@ -437,25 +442,25 @@ span > span{
 
 .widget-twitter h3{
   color: #2C3E50;
-  margin-left: 11px;
+  margin-left: 10px;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   margin-top: 0px;
-  word-spacing: -2px;
+  word-spacing: -1px;
 }
 
 .widget-flickr{
-  margin-bottom: 28px;
+  margin-bottom: 29px;
   /* margin-top: 0px; */
 }
 
 .widget-flickr h3{
   color: #2C3E50;
-  margin-left: 11px;
+  margin-left: 10px;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   margin-top: 4px;
-  word-spacing: -2px;
+  word-spacing: -1px;
 }
 
 .widget-tags{
@@ -465,11 +470,11 @@ span > span{
 
 .widget-tags h3{
   color: #2C3E50;
-  margin-left: 11px;
+  margin-left: 9px;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
-  margin-top: 4px;
-  word-spacing: -2px;
+  margin-top: 5px;
+  word-spacing: 0px;
 }
 
 .widget-archives{
@@ -507,8 +512,8 @@ span > span{
 }
 
 .photo{
-  width: 41px;
-  height: 41px;
+  width: 40px;
+  height: 40px;
   background-color: #CCCCCC;
   border-radius: 5px;
   margin-right: 14px;
@@ -526,14 +531,14 @@ span > span{
 
 .post-comment p:last-child{
   line-height: 24px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .post-comment p span{
   font-weight: 700;
   color: #2C3E50;
   font-family: 'Lato', sans-serif;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .post-comment p span:hover{
@@ -542,7 +547,7 @@ span > span{
 }
 
 .post-comment p:first-child{
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   word-spacing: 1px;
 }
 
@@ -562,7 +567,7 @@ span > span{
 .flickr-wrapper{
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 8px;
+  grid-gap: 7px;
   margin-top: 27px;
 }
 
@@ -605,12 +610,13 @@ span > span{
   background-color: #ECF0F1;
   font-family: 'Lato', sans-serif;
   color: #34495E;
-  padding: 6px 12px 6px 13px;
+  padding: 5px 12px 7px 13px;
   font-size: 14px;
   line-height: 19px;
   margin-bottom: 5px;
   margin-right: 3px;
   letter-spacing: 0px;
+  border-radius: 7px;
 }
 
 .tags-wrapper p:hover{
@@ -732,7 +738,7 @@ footer{
 }
 
 .footer-col1{
-  width: 270px;
+  width: 267px;
 }
 
 .footer-col1 h4{
@@ -741,7 +747,7 @@ footer{
   color: #fff;
   font-weight: 400;
   margin-bottom: 18px;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 .footer-col1 h4 span{
@@ -760,6 +766,7 @@ footer{
 .footer-col1 p:first-of-type{
   margin-bottom: 25px;
   word-spacing: 2px;
+  letter-spacing: px;
 }
 
 
@@ -772,9 +779,9 @@ footer{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 46px;
-  margin-top: 12px;
-  margin-left: 2px;
+  margin-bottom: 47px;
+  margin-top: 14px;
+  margin-left: 4px;
 }
 
 .footer-col2 h5::before{
@@ -789,7 +796,7 @@ footer{
 .footer-col2 span{
   color: #A1B1BC;
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .footer-line{
@@ -803,6 +810,7 @@ footer{
   color: #A1B1BC;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
+  margin-left: 3px;
 }
 
 
@@ -840,6 +848,7 @@ footer{
   color: #A1B1BC;
   margin-right: 20px;
   margin-top: -12px;
+  margin-left: 4px;
 }
 
 .send-time{
@@ -853,7 +862,7 @@ footer{
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 4px;
-  margin-top: -3px;
+  margin-top: -1px;
   margin-left: -63px;
 }
 
@@ -873,9 +882,10 @@ footer{
   color: #A1B1BC;
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   margin-top: -3px;
   margin-left: -63px;
+  word-spacing: -1px;
 }
 
 .send-time2 p{
@@ -898,7 +908,7 @@ footer{
 .works-wrapper{
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 8px;
+  grid-gap: 7.3px;
   margin-left: 5px;
 }
 
@@ -920,7 +930,7 @@ footer{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 46px;
+  margin-bottom: 48px;
   margin-top: 13px;
 }
 
@@ -940,7 +950,7 @@ footer{
 .footer-end{
   width: 100%;
   background-color: #222533;
-  padding: 24px 0;
+  padding: 22px 0 29px;
 }
 
 .footnote{
@@ -962,7 +972,7 @@ footer{
   background-color: #2C3E50;
   width: 1px;
   height: 13px;
-  margin: 0 7px;
+  margin: 0 6px;
 }
 
 .footnote h3:last-child::after{
