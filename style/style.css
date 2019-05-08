@@ -1005,3 +1005,6 @@ footer{
 .footnote h3:last-child::after{
   display: none;
 }
+.endmenu-1{
+  margin-right: 25px;
+}
